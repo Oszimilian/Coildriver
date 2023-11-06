@@ -2,20 +2,20 @@ Circuit: * Z:\home\maximilian\LTSpice\Coildriver\OpenCollectorDriver.asc
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Wed Nov 01 20:34:44 2023
-Total elapsed time: 0.132 seconds.
+Date: Mon Nov 06 16:00:03 2023
+Total elapsed time: 0.066 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 74028
-traniter = 74022
-tranpoints = 20483
-accept = 15873
-rejected = 4610
-matrix size = 16
+totiter = 10553
+traniter = 10547
+tranpoints = 3254
+accept = 2489
+rejected = 765
+matrix size = 15
 fillins = 1
 solver = Normal
-Matrix Compiler1: 726 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler1: 596 bytes object code size  0.1/0.1/[0.1]
 Matrix Compiler2: off  [0.1]/0.1/0.1
 

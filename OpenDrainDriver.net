@@ -1,0 +1,24 @@
+* Z:\home\maximilian\LTSpice\Coildriver\OpenDrainDriver.asc
+V1 N001 0 20
+V2 N007 0 PULSE(0 5 0 10e-8 10e-8 10e-3 20e-3)
+M1 N009 N005 0 0 IRF6609
+M3 N002 N005 N009 N009 FDS4465
+R1 N005 N008 100
+R2 N003 N004 2
+L1 N001 N003 2mH
+V3 N002 0 5
+M4 N004 N010 0 0 IRF6609
+D1 N004 N001 MBRB2545CT
+R3 N010 N009 1
+A1 0 N006 0 N007 0 N008 0 0 AND Vhigh=5V
+R4 N002 N006 10k
+V4 N011 0 PULSE(0 5 50e-3 10e-8 10e-8 30e-3 40e-3 1)
+M2 N006 N011 0 0 IRF6609
+.model D D
+.lib C:\users\maximilian\Meine Dokumente\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\maximilian\Meine Dokumente\LTspiceXVII\lib\cmp\standard.mos
+.tran 100ms
+.backanno
+.end

@@ -1,0 +1,21 @@
+Circuit: * Z:\home\maximilian\LTSpice\Coildriver\OpenDrainDriver.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Nov 06 18:50:27 2023
+Total elapsed time: 0.391 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 181912
+traniter = 181895
+tranpoints = 59841
+accept = 42972
+rejected = 16869
+matrix size = 32
+fillins = 9
+solver = Normal
+Matrix Compiler1: 2.04 KB object code size  0.3/0.2/[0.1]
+Matrix Compiler2: off  [0.2]/0.2/0.2
+
