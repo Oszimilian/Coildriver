@@ -1,29 +1,21 @@
-Circuit: * Z:\home\maximilian\LTSpice\Coildriver\OpenCollectorDriver.asc
+Circuit: * Z:\home\maximilian\LTSpice\Coildriver\Sim\OpenCollectorDriver.asc
 
-Warning: Multiple definitions of model "2scr375p" Type: BJT
-Warning: Multiple definitions of model "bc857b" Type: BJT
-Warning: Multiple definitions of model "bc847c" Type: BJT
-Warning: Multiple definitions of model "bc847b" Type: BJT
 Direct Newton iteration for .op point succeeded.
-Heightened Def Con from 0.0001 to 0.000100002
-Heightened Def Con from 0.0002 to 0.000200002
-Heightened Def Con from 0.001 to 0.001
-Heightened Def Con from 0.0018 to 0.0018
 
-Date: Sat Nov 04 10:59:55 2023
-Total elapsed time: 0.178 seconds.
+Date: Tue Nov 07 08:27:45 2023
+Total elapsed time: 4.344 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 76653
-traniter = 76647
-tranpoints = 20831
-accept = 16027
-rejected = 4808
-matrix size = 15
-fillins = 2
+totiter = 2161798
+traniter = 2161785
+tranpoints = 288494
+accept = 144385
+rejected = 144109
+matrix size = 19
+fillins = 1
 solver = Normal
-Matrix Compiler1:      49 opcodes  0.2/[0.1]/0.1
-Matrix Compiler2: off  [0.1]/0.1/0.2
+Matrix Compiler1: 822 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.2
 
