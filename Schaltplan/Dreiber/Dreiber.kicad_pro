@@ -334,6 +334,22 @@
     [
       "29956083-70ec-458e-ac74-5cdebf25a769",
       "Versorgung"
+    ],
+    [
+      "8221bd1d-9d84-4cea-920e-e8cfcb450903",
+      "OpenDrainDriver1"
+    ],
+    [
+      "4f458e3a-84a4-41d0-87d7-550da6ef8c37",
+      "OpenDrainDriver2"
+    ],
+    [
+      "dcf4c223-77c6-4c59-aaa5-be70f8c8b85b",
+      "OpenDrainDriver3"
+    ],
+    [
+      "6a033c31-9007-497a-818f-1b6083bf6406",
+      "ShutdownLogic"
     ]
   ],
   "text_variables": {}
