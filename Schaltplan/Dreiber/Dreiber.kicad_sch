@@ -1,0 +1,60 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b9c6537b-9919-4452-86c5-0a2d0440a6ff)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 88.9 50.8) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 132 0 0 1))
+    (fill (color 255 255 194 1.0000))
+    (uuid 29956083-70ec-458e-ac74-5cdebf25a769)
+    (property "Sheetname" "Versorgung" (at 88.9 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Versorgung.kicad_sch" (at 88.9 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Dreiber"
+        (path "/b9c6537b-9919-4452-86c5-0a2d0440a6ff" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 50.8) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 132 0 0 1))
+    (fill (color 255 255 194 1.0000))
+    (uuid 6d4c0bae-e04f-4783-ad85-d7ccd98fc9d3)
+    (property "Sheetname" "OpenDrainDriver" (at 177.8 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "OpenDrainDriver.kicad_sch" (at 177.8 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "OUTPUT" input (at 203.2 63.5 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 6df44a3d-02df-44c4-a41e-03fe0dd415aa)
+    )
+    (pin "VCC" input (at 189.23 50.8 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a29c990d-0274-4fbd-bcb0-135f4937633a)
+    )
+    (pin "INPUT" input (at 177.8 63.5 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 59734226-609e-4f6c-96b9-3b77d9be7c86)
+    )
+    (instances
+      (project "Dreiber"
+        (path "/b9c6537b-9919-4452-86c5-0a2d0440a6ff" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
